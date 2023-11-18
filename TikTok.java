@@ -91,9 +91,7 @@ class TicTacToe{
 			}
 		}
 		return false;
-	}
-	
-	
+	}	
 }
 
 class HumanPlayer extends player{
@@ -116,12 +114,7 @@ class HumanPlayer extends player{
 		
 			TicTacToe.placeMark(row, col, mark);
 	}
-	
-	
-	
-}
-	
-	
+}	
  class AIPlayer extends player{
 		
 		AIPlayer(String name, char mark) {
@@ -144,25 +137,6 @@ class HumanPlayer extends player{
 		}
 	
 }
-
-
-
-
-//1 1
-//2 1
-//
-//1 0
-//
-//0 0
-//
-//2 2
-//
-//1 2
-//
-//2 0
-//
-//0 2
-//0 1
 public class TikTok {
 
 	public static void main(String[] args) {  
